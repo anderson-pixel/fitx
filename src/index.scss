@@ -37,6 +37,17 @@ html {
   }
 }
 
+section {
+  padding: 5rem 9%;
+}
+
+@media (max-width: 991px) {
+  section{
+    padding: 3rem 2rem;
+   }
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

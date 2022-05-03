@@ -5,7 +5,7 @@ import light from './styles/themes/light';
 import dark from './styles/themes/dark';
 import usePersistedState from './utils/usePersistedState'
 import Header from './components/header/header';
-import { Navbar } from './components/navbar';
+import Home from './components/header/Home/home';
 
 function App() {
 
@@ -19,8 +19,8 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <GlobalStyle/>
-      <Navbar />
-      <Header toggleTheme={toggleTheme} />
+      <Header toggleTheme={toggleTheme}/>
+      <Home />
     </div>
     </ThemeProvider>
   );

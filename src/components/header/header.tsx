@@ -3,7 +3,7 @@ import { ThemeContext } from 'styled-components'
 import { shade } from 'polished'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
-import { Container } from './styles';
+import {Container} from './Styles';
 import Switch from 'react-switch';
 
 interface Props {
@@ -16,11 +16,10 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 
   return (
     <Container>
+
         <a href="#logo" className="logo">Fit<span>X</span></a>
 
-        <div  className="fas fa-bars">
-        <FontAwesomeIcon id="menu-btn" style={{color: 'white'}} icon={faBars}></FontAwesomeIcon>
-        </div>
+        <div id="menu-btn" className="fas fa-bars"></div>
         
         <nav className="navbar">
           <a href="#home">home</a>
@@ -42,6 +41,10 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         offColor={shade(0.15, colors.primary)}
         onColor={colors.secundary}
         />
+
+        <div  className="fas fa-bars">
+        <FontAwesomeIcon id="menu-btn" style={{color: 'white'}} icon={faBars}></FontAwesomeIcon>
+        </div>
     </Container>
   );
 };
