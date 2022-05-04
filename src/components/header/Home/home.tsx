@@ -43,7 +43,7 @@ margin-top: 6.5rem;
 }
 `
 
-function Home() {
+const Home = () => {
   return (
     <HomeContainer>
      <div className="home-slider">
@@ -59,22 +59,6 @@ function Home() {
              </div>
          </div>
 
-         <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
-             <div className="content">
-                 <span>Yeah</span>
-                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                 <a href="#" className="btn">get started</a>
-             </div>
-         </div>
-
-          <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
-             <div className="content">
-                 <span>Yeah</span>
-                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                 <a href="#" className="btn">get started</a>
-             </div>
-         </div>  
-         <div className="swiper-button-next"></div>
      </div>
     </div>
     </HomeContainer>
