@@ -11,6 +11,9 @@ justify-content: space-between;
 padding: 0 9%;
 background: ${props => props.theme.colors.primary};
 color: #fff;
+z-index: 10000;
+
+
 @media (max-width: 991px) {
   padding: 0 2rem;
 }
@@ -40,9 +43,7 @@ color: #fff;
   padding: 1.5rem 2rem;
   font-size: 1.7rem;
   color: #fff;
-  &:hover {
-    background: red;
-  }
+
   @media (max-width: 768px) {
     display: block;
     font-size: 2rem;

@@ -12,39 +12,69 @@ margin-top: 6.5rem;
     padding:2rem 9%;
     display: flex;
     align-items: center;
+
+    .content {
+        width:60rem;
+
+        span {
+            font-size: 2rem;
+            display: block;
+            color: red;
+        }
+        h3 {
+            font-size: 5rem;
+            padding: 1rem 0; 
+        }
+        .btn {
+            margin-top: 1rem;
+            display: inline-block;
+            padding:1rem 2.8rem;
+            padding-right: 3rem;
+            background: linear-gradient(130deg, red, transparent 90%);
+            cursor: pointer;
+            font-size: 1.7rem;
+            color: ${props => props.theme.colors.text};
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 `
 
 function Home() {
   return (
     <HomeContainer>
-    <div className="home-slider">
+     <div className="home-slider">
      <div className="wrapper">
+
+         <div className="row"></div>
 
          <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
              <div className="content">
-                 <span></span>
-                 <h3>YOOO</h3>
+                 <span>Yeah</span>
+                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
                  <a href="#" className="btn">get started</a>
              </div>
          </div>
 
          <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
              <div className="content">
-                 <span></span>
-                 <h3>SIUUUU</h3>
+                 <span>Yeah</span>
+                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
                  <a href="#" className="btn">get started</a>
              </div>
          </div>
 
           <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
              <div className="content">
-                 <span></span>
-                 <h3>AURHGHHH</h3>
+                 <span>Yeah</span>
+                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
                  <a href="#" className="btn">get started</a>
              </div>
          </div>  
-
+         <div className="swiper-button-next"></div>
      </div>
     </div>
     </HomeContainer>

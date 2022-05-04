@@ -9,7 +9,8 @@
   outline: none;
   border: none;
   text-transform: capitalize;
-  transition: all 0.2s linear;
+  transition: all 0.04s linear;
+  color: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -44,6 +45,17 @@ section {
 @media (max-width: 991px) {
   section{
     padding: 3rem 2rem;
+   }
+   .slide {
+     padding: 2rem 5%;
+
+     .content {
+       width: 50rem;
+
+       h3{
+         font-size: 4rem;
+       }
+     }
    }
 }
 
