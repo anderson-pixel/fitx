@@ -4,12 +4,89 @@ import styled from 'styled-components'
 const PricingContainer = styled.section`
 height: 300px;
 width: 100%;
-color: #fff;
+color: ${props => props.theme.colors.text};
+
+.information {
+    span {
+      font-size: 2rem;
+      color: red;
+    }
+    h3 {
+      font-size: 4rem;
+      padding-top: .5rem;
+      color: ${props => props.theme.colors.text};
+    }
+    p {
+      line-height: 2;
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: ${props => props.theme.colors.text};
+    }
+    i {
+      padding-right: 1rem;
+      color: red;
+    }
+  }
+
+  .plan {
+    text-align: center;
+    padding: 2rem;
+
+    &.basic {
+     background: linear-gradient(130deg, #aaa 93%, transparent 90% );
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      color: ${props => props.theme.colors.text};
+    }
+
+    .price {
+      font-size: 5rem;
+      font-weight: bolder;
+      color: red;
+
+      span {
+        color: ${props => props.theme.colors.text};
+        font-size: 2rem;
+      }
+    }
+    .list{
+      padding: 1rem 0;
+
+      p {
+      line-height: 2;
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      color: ${props => props.theme.colors.text};
+    }
+    i {
+      padding-right: 1rem;
+      color: red;
+    }
+    }
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding:1rem 2.8rem;
+  padding-right: 3rem;
+  background: linear-gradient(130deg, red, transparent 90%);
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: ${props => props.theme.colors.text};
+  &:hover {
+  transform: scale(1.1);
+}
+}
 `
+
 
 function Pricing() {
   return (
-    <PricingContainer>
+    <PricingContainer className="pricing">
 
       <div className="information">
         <span>pricing plans</span>

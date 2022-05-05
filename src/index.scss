@@ -21,6 +21,12 @@ $white : #fff;
 $light-white : #aaa;
 $light-black : #111;
 
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap:1.5rem;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -69,4 +75,8 @@ code {
   html {
     font-size: 55%;
   }
+}
+
+.pricing {
+  @include grid(32rem);
 }
