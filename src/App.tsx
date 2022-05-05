@@ -7,6 +7,7 @@ import usePersistedState from './utils/usePersistedState'
 import Header from './components/header/header';
 import Home from './components/header/Home/home';
 import Feature from './components/header/Features/feature';
+import Pricing from './components/header/Pricing/pricing';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Header toggleTheme={toggleTheme}/>
       <Home />
       <Feature />
+      <Pricing />
     </div>
     </ThemeProvider>
   );
