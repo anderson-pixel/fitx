@@ -8,6 +8,7 @@ import Header from './components/header/header';
 import Home from './components/header/Home/home';
 import Feature from './components/header/Features/feature';
 import Pricing from './components/header/Pricing/pricing';
+import Team from './components/header/Team/team';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Home />
       <Feature />
       <Pricing />
+      <Team />
     </div>
     </ThemeProvider>
   );

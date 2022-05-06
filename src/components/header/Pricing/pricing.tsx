@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const PricingContainer = styled.section`
-height: 300px;
+height: 650px;
 width: 100%;
 color: ${props => props.theme.colors.text};
 
@@ -33,13 +33,16 @@ color: ${props => props.theme.colors.text};
     padding: 2rem;
 
     &.basic {
-     background: linear-gradient(130deg, #aaa 93%, transparent 90% );
+     background: linear-gradient(130deg, #484848 23%, transparent 95% );
+    }
+    &.premium {
+     background: linear-gradient(130deg, #110f0f 23%, transparent 95% );
     }
 
     h3 {
       font-size: 2.5rem;
       margin: 1rem 0;
-      color: ${props => props.theme.colors.text};
+      color: white;
     }
 
     .price {
@@ -48,7 +51,7 @@ color: ${props => props.theme.colors.text};
       color: red;
 
       span {
-        color: ${props => props.theme.colors.text};
+        color: white;
         font-size: 2rem;
       }
     }
@@ -76,7 +79,7 @@ color: ${props => props.theme.colors.text};
   background: linear-gradient(130deg, red, transparent 90%);
   cursor: pointer;
   font-size: 1.7rem;
-  color: ${props => props.theme.colors.text};
+  color: white;
   &:hover {
   transform: scale(1.1);
 }
