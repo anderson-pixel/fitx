@@ -6,6 +6,10 @@ height: 650px;
 width: 100%;
 color: ${props => props.theme.colors.text};
 
+@media (max-width: 768px) {
+  height: 1000px;
+}
+
 .information {
     span {
       font-size: 2rem;

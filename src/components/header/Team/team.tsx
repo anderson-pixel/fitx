@@ -4,7 +4,7 @@ import catimg from '../../../images/catshot.png'
 
 const TeamContainer = styled.section`
 width: 100%;
-height: 600px;
+height: 700px;
 
 .box{
       height: 50rem;
@@ -55,6 +55,10 @@ height: 600px;
               font-size: 2rem;
               color: black;
               margin: 0 1rem;
+
+              &:hover {
+                  color: red;
+              }
           }
       }
 }
