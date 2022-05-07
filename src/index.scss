@@ -82,28 +82,7 @@ code {
 }
 
 .team {
-  
   .box-container {
     @include grid(32rem);
-
-    .box{
-      height: 50rem;
-      overflow: hidden;
-      position: relative;
-
-      img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
-
-      .content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background: white;
-        padding: 1rem 2rem;
-      }
-    }
   }
 }
