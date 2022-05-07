@@ -9,7 +9,8 @@ import Home from './components/header/Home/home';
 import Feature from './components/header/Features/feature';
 import Pricing from './components/header/Pricing/pricing';
 import Team from './components/header/Team/team';
-import Footer from './components/header/Contact/contact';
+import Footer from './components/header/Footer/footer';
+import Contact from './components/header/Contact/contact';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Feature />
       <Pricing />
       <Team />
+      <Contact/>
       <Footer />
     </div>
     </ThemeProvider>
