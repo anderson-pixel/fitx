@@ -6,6 +6,10 @@ const TeamContainer = styled.section`
 width: 100%;
 height: 700px;
 
+@media (max-width: 1210px) {
+    height: 1600px;
+}
+
 .box{
       height: 50rem;
       overflow: hidden;
