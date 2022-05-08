@@ -86,3 +86,10 @@ code {
     @include grid(32rem);
   }
 }
+
+.footer{
+
+  .box-container{
+    @include grid(25rem);
+  }
+}
