@@ -57,7 +57,7 @@ function Contact() {
             <h1>Contact Us</h1>
             <form>
                 <input type='text' placeholder='Full Name' required/>
-                <input type='email' placeholder='Type Your E-Mail' required/>
+                <input type='email' placeholder='E-Mail' required/>
                 <textarea placeholder='write here...' name='message'></textarea>
                 <input id='submitinput'type='submit' value='Send' />
             </form>
