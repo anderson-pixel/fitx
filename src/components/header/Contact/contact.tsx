@@ -43,10 +43,17 @@ textarea {
 #submitinput {
   width: 110px;
   height: 35px;
-  background: linear-gradient(90deg, #FF1414 20%,#f70000);
-  color: #ffffff;
+  background: #ffffff;
+  color: red;
+  border: 1px solid red;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    color: #ffffff;
+    background: linear-gradient(90deg, #FF1414 20%,#f70000);
+  }
 }
 `
 

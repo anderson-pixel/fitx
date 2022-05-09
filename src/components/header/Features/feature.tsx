@@ -3,8 +3,10 @@ import styled from 'styled-components'
 import catimg from '../../../images/catshot.png'
 
 const FeaturesContainer = styled.section`
-height: 700px;
-width: 100%;
+height: auto;
+width: 100vw;
+display: grid;
+place-items: center;
 
 h1 {
   color: white;
@@ -30,6 +32,44 @@ h1 {
       height: 50%;
       object-fit: cover;
     }
+    .content {
+      height: 50%;
+      width: 100%;
+      text-align: center;
+
+      h1{
+        color: red;
+        font-size: 2.5rem;
+      }
+      p{
+        font-size: 1.2rem;
+        padding: .5rem;
+        color: black;
+
+        
+        @media (max-width: 468px) {
+          font-size: 1.1rem;
+        }
+
+        @media (max-width: 328px) {
+          font-size: 1rem;
+        }
+      }
+      button {
+        margin: 1rem 0;
+        border: 2px solid red;
+        border-radius: 5px;
+        color: red;
+        padding: .5rem;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+          background: red;
+          color: white;
+          border: 2px solid white;
+        }
+      }
+    }
   }
 }
 `
@@ -45,7 +85,7 @@ const Feature = () => {
         <div className="card">
           <img src={catimg} alt=''></img>
           <div className="content">
-            <h1>header</h1>
+            <h1>Weight training</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
             <a href='#'><button>learn more</button></a>
           </div>
@@ -54,7 +94,7 @@ const Feature = () => {
         <div className="card">
           <img src={catimg} alt=''></img>
           <div className="content">
-            <h1>eddlk otyoytl</h1>
+            <h1>Cardio</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
             <a href='#'><button>learn more</button></a>
           </div>
@@ -63,7 +103,7 @@ const Feature = () => {
         <div className="card">
           <img src={catimg} alt=''></img>
           <div className="content">
-            <h1>yuh lfçre</h1>
+            <h1>Placeholder</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
             <a href='#'><button>learn more</button></a>
           </div>
