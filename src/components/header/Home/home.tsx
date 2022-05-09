@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const HomeContainer = styled.section`
 padding: 0;
 margin-top: 6.5rem;
+height: 470px;
 
 .slide {
     min-height:70vh;
@@ -45,8 +46,8 @@ margin-top: 6.5rem;
 
 const Home = () => {
   return (
-    <HomeContainer>
-     <div id="home" className="home-slider">
+    <HomeContainer id="home">
+     <div className="home-slider">
      <div className="wrapper">
 
          <div className="row"></div>

@@ -9,8 +9,6 @@ justify-content: center;
 align-items: center;
 display: flex;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-gap:1.5rem;
 `
 
 function Footer() {
@@ -38,11 +36,11 @@ function Footer() {
       </div>
 
       <div className="box">
-       <h3>also</h3>
-       <p> <i className="fas fa-phone"></i> +123-456-7890 </p>
-       <p> <i className="fas fa-phone"></i> +123-456-7890 </p>
-       <p> <i className="fas fa-envelope"></i> @kdkmefmfmesmf </p>
-       <p> <i className="fas fa-map"></i> yergh feksnfksemnfk ogrirgj </p>
+       <h3>Contact</h3>
+       <p> <i className="fas fa-phone"></i>+123-456-7890</p>
+       <p> <i className="fas fa-phone"></i>+123-456-7890 </p>
+       <p> <i className="fas fa-envelope"></i>@kdkmefmfmesmf</p>
+       <p> <i className="fas fa-map"></i>yergh feksnfksemnfk</p>
        <div className="share">
           <a className="fab fa-facebook-f" href="#"></a>
           <a className="fab fa-twitter" href="#"></a>

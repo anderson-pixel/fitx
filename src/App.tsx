@@ -26,10 +26,9 @@ function App() {
     <div className="App">
       <GlobalStyle/>
       <Header toggleTheme={toggleTheme}/>
-      <Home />
+      <Home/>
       <Feature />
       <Pricing />
-      <Team />
       <Contact/>
       <Footer />
     </div>

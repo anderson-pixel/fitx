@@ -7,6 +7,7 @@ height: auto;
 width: 100vw;
 display: grid;
 place-items: center;
+padding: 3rem 2rem;
 
 h1 {
   color: white;
@@ -62,6 +63,7 @@ h1 {
         color: red;
         padding: .5rem;
         transition: all 0.2s ease-out;
+        cursor: pointer;
 
         &:hover {
           background: red;
