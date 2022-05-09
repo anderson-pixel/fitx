@@ -95,12 +95,12 @@ code {
       grid-template-rows: repeat(1, 1fr);
       grid-column-gap: 0px;
       grid-row-gap: 0px;
-      height: 500px;
+      height: 300px;
       grid-auto-flow: column;
       padding: .5em;
 
       @media (max-width: 368px) {
-        grid-auto-flow: block;
+        height: 500px;
       }
 
       .box{

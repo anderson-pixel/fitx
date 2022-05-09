@@ -23,7 +23,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         
         <nav className="navbar">
           <a href="#home">home</a>
-          <a href="#fetures">features</a>
+          <a href="#features">features</a>
           <a href="#pricing">pricing</a>
           <a href="#trainers">trainers</a>
           <a href="#contact">contact</a>

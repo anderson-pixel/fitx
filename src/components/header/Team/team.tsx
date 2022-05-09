@@ -70,7 +70,7 @@ height: 700px;
 
 function Team() {
   return (
-    <TeamContainer id="team" className="team">
+    <TeamContainer id="trainers" className="team">
         <div className="heading">
             <span>Team</span>
             <h3>placeholder</h3>

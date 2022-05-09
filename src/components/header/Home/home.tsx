@@ -46,7 +46,7 @@ margin-top: 6.5rem;
 const Home = () => {
   return (
     <HomeContainer>
-     <div className="home-slider">
+     <div id="home" className="home-slider">
      <div className="wrapper">
 
          <div className="row"></div>

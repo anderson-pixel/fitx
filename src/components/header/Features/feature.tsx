@@ -1,68 +1,76 @@
 import React from 'react'
 import styled from 'styled-components'
-import Featureconfig from './featureconfig'
-import fimage1 from '../../../images/1.svg';
-import fimage2 from '../../../images/2.svg';
-import fimage3 from '../../../images/3.svg';
-import fimage4 from '../../../images/4.svg';
+import catimg from '../../../images/catshot.png'
 
 const FeaturesContainer = styled.section`
-justify-content: center;
-align-items: center;
-display: flex;
-height: 600px;
+height: 700px;
 width: 100%;
-margin-top: 100px;
 
-.fe1 {
-  position: absolute; 
-  margin-bottom: 500px; 
-  letter-spacing: 3px; 
-  font-size: 35px;
-  
-  @media (max-width: 991px) {
-    margin-bottom: 1200px;
-  }
+h1 {
+  color: white;
+  font-size: 4rem;
+  margin:2rem 0;
 }
 
-@media (max-width: 991px) {
-    height: 1000px;
-}
-
-.featureconfigcont {
-justify-content: center;
-align-items: center;
-display: flex;
-position: absolute;
-}
-.a-container {
+.card-container{
+  width: 90vw;
   display: flex;
-  justify-content: center; 
-  align-items: center;
-  @media (max-width: 991px) {
-    display: inline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  .card {
+    width: 30rem;
+    height: 40rem;
+    margin: 2rem;
+    background: #fff;
+
+    img {
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+    }
   }
 }
 `
 
 const Feature = () => {
   return (
-    <FeaturesContainer id="features">
-      <h1 className="fe1">FEATURES</h1>
-      <div className="a-container">
-      <div className="featureConfigCont">
-      <Featureconfig image={fimage1} title="WeightLifting"/>
-      </div>
-      <div>
-      <Featureconfig image={fimage2} title="WeightLifting"/>
-      </div>
-      <Featureconfig image={fimage3} title="WeightLifting"/>
-      <div>
-      <Featureconfig image={fimage4} title="WeightLifting"/>
+    <FeaturesContainer>
+
+      <h1 id='features' className="fe1">FEATURES</h1>
+
+      <div className="card-container">
+
+        <div className="card">
+          <img src={catimg} alt=''></img>
+          <div className="content">
+            <h1>header</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <a href='#'><button>learn more</button></a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={catimg} alt=''></img>
+          <div className="content">
+            <h1>eddlk otyoytl</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <a href='#'><button>learn more</button></a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={catimg} alt=''></img>
+          <div className="content">
+            <h1>yuh lfçre</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <a href='#'><button>learn more</button></a>
+          </div>
+        </div>
+
       </div>
 
-
-      </div>
     </FeaturesContainer>
   )
 }
