@@ -2,9 +2,27 @@ import React from 'react'
 import styled from 'styled-components'
 
 const PricingContainer = styled.section`
-height: 650px;
+height: 750px;
 width: 100%;
 color: ${props => props.theme.colors.text};
+
+.link-btn {
+  margin-top: 1rem;
+   display: inline-block;
+   padding:1rem 3rem;
+   background: white;
+   color: red;
+   border: 1px solid red;
+   cursor: pointer;
+   border-radius: .5rem;
+   font-size: 1.8rem;
+   text-transform: capitalize;
+   transition: all 0.2s ease-in-out;
+   &:hover{
+      background: red;
+      color: white;
+   }
+}
 `
 
 
@@ -19,7 +37,7 @@ function Pricing() {
       <div className="box-container container">
         <div className="box">
           <h3>basic plan</h3>
-          <div className="price"><span>$</span>60<span>mo</span></div>
+          <div className="price"><span>$</span>30<span>mo</span></div>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
             <p> <i className="fas fa-check"></i> personal training </p>
@@ -32,7 +50,7 @@ function Pricing() {
 
         <div className="box">
           <h3>premium plan</h3>
-          <div className="price"><span>$</span>30<span>mo</span></div>
+          <div className="price"><span>$</span>60<span>mo</span></div>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
             <p> <i className="fas fa-check"></i> personal training </p>
@@ -45,7 +63,7 @@ function Pricing() {
 
         <div className="box">
           <h3>ultimate plan</h3>
-          <div className="price"><span>$</span>30<span>mo</span></div>
+          <div className="price"><span>$</span>90<span>mo</span></div>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
             <p> <i className="fas fa-check"></i> personal training </p>

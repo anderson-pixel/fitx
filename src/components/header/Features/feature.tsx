@@ -3,11 +3,19 @@ import styled from 'styled-components'
 import catimg from '../../../images/catshot.png'
 
 const FeaturesContainer = styled.section`
-height: auto;
+height: 800px;
 width: 100vw;
 display: grid;
 place-items: center;
 padding: 3rem 2rem;
+
+@media (max-width: 1000px) {
+    height: 900px;
+}
+@media (max-width: 668px) {
+    height: 1500px
+}
+
 
 h1 {
   color: white;

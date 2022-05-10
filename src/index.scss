@@ -15,6 +15,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+$orange:#ff5421;
+$white:#fff;
+$black:#000;
+$light-color:#ccc;
+$bg-color:#1d0e15;
+$border:.1rem solid rgba(255,255,255,.2);
+
+@mixin grid($val) {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+   gap:2rem;
+}
+
+@mixin title-text($titleText) {
+   font-size: $titleText;
+   text-transform: capitalize;
+   color:$white;
+}
+
+@mixin graph-text($graphText) {
+   font-size: $graphText;
+   line-height: 2;
+   color:$light-color;
+}
+
 $red: #f00;
 $black : #000;
 $white : #fff;
@@ -22,10 +47,16 @@ $light-white : #aaa;
 $light-bg : #aaa;
 $light-black : #111;
 
-@mixin grid($val) {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-  gap:1.5rem;
+@mixin title-text($titleText) {
+  font-size: $titleText;
+  text-transform: capitalize;
+  color:$white;
+}
+
+@mixin graph-text($graphText) {
+  font-size: $graphText;
+  line-height: 2;
+  color:$light-color;
 }
 
 html {
@@ -63,9 +94,8 @@ section {
          font-size: 4rem;
        }
      }
-   }
+  }
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -76,10 +106,6 @@ code {
   html {
     font-size: 55%;
   }
-}
-
-.pricing {
-  @include grid(32rem);
 }
 
 .team {
@@ -180,4 +206,93 @@ code {
         }
         }
     }
+}
+
+
+.pricing{
+
+  .box-container{
+     @include grid(29rem);
+     margin-top: 8rem;
+     margin-bottom: 5rem;
+
+     .box{
+        padding:2rem;
+        text-align: center;
+        border:$border;
+        background: $bg-color;
+        border-radius: .5rem;
+
+        &:nth-child(2){
+           transform: scale(1.2);
+        }
+
+        h3{
+           @include title-text(2rem);
+           padding-top: 1rem;
+        }
+
+        .price{
+           padding:1rem 0;
+           @include title-text(6rem);
+           font-weight: bolder;
+
+           span{
+              font-size: 2rem;
+              font-weight: normal;
+           }
+        }
+
+        .list{
+           padding-top: 2rem;
+           
+           p{
+              @include graph-text(1.7rem);
+
+              i{
+                 padding-right: .5rem;
+                 color:$orange;
+
+                 &.fa-times{
+                    color:$white;
+                 }
+              }
+           }
+        }
+     }
+  }
+}
+
+.heading{
+  text-align: center;
+  margin-bottom: 3rem;
+
+  span{
+     font-size: 2.5rem;
+     color:$red;
+  }
+
+  h3{
+     @include title-text(3.5rem);
+  }
+}
+
+
+//media query 
+
+@media (max-width:1151px){
+  html{
+     font-size: 55%;
+  }
+  .home h3{
+     font-size: 3rem;
+  }
+  .pricing .box-container{
+    margin-top: 200;
+    margin-bottom: 780;
+
+    .box:nth-child(2){
+       transform: scale(1);
+    }
+ }
 }
