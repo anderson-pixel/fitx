@@ -69,9 +69,9 @@ html {
     width: 1em;
   }
   &::-webkit-scrollbar-track-piece {
-    background: $black;
+    background: $white;
   }
-  &::-webkit-scrollbar-track-thumb {
+  &::-webkit-scrollbar-thumb {
     background: $red;
   }
 }
@@ -241,6 +241,9 @@ code {
               font-size: 2rem;
               font-weight: normal;
            }
+        }
+        .h2-pop span{
+          color: $red;
         }
 
         .list{

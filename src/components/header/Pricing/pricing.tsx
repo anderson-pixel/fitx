@@ -51,6 +51,7 @@ function Pricing() {
         <div className="box">
           <h3>premium plan</h3>
           <div className="price"><span>$</span>60<span>mo</span></div>
+          <h2 className="h2-pop"><span>Most Popular</span></h2>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
             <p> <i className="fas fa-check"></i> personal training </p>
