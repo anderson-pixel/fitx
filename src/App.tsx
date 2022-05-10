@@ -29,6 +29,7 @@ function App() {
       <Home/>
       <Feature />
       <Pricing />
+      <Team />
       <Contact/>
       <Footer />
     </div>

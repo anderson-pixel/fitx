@@ -66,7 +66,7 @@ html {
   overflow-x: hidden;
 
   &::-webkit-scrollbar {
-    width: 1em;
+    width: 0.8em;
   }
   &::-webkit-scrollbar-track-piece {
     background: $white;
@@ -264,6 +264,40 @@ code {
         }
      }
   }
+}
+
+.team {
+  text-align: center;
+}
+
+.team .heading{
+  color: #fff;
+}
+.team .box-container .box {
+  height: 40rem;
+  margin: 1.5rem 1rem;
+  width: 24.3rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 .1rem .5rem;
+}
+.team .box-container .box .info {
+  color: #333;
+  background: #fff;
+  border-top: .5rem solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 2rem;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.team .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .heading{
