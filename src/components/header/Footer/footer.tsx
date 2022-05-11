@@ -1,5 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const FooterContainer = styled.div`
 height: 500px;
@@ -37,16 +39,14 @@ function Footer() {
 
       <div className="box">
        <h3>Contact</h3>
-       <p> <i className="fas fa-phone"></i>+123-456-7890</p>
-       <p> <i className="fas fa-phone"></i>+123-456-7890 </p>
-       <p> <i className="fas fa-envelope"></i>@kdkmefmfmesmf</p>
-       <p> <i className="fas fa-map"></i>yergh feksnfksemnfk</p>
-       <div className="share">
-          <a className="fab fa-facebook-f" href="#"></a>
-          <a className="fab fa-twitter" href="#"></a>
-          <a className="fab fa-linkedin" href="#"></a>
-          <a className="fab fa-pinterest" href="#"></a>
-       </div>
+       <p> <i>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890</p>
+       <p> <i>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890 </p>
+       <p> <i>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>@kdkmefmfmesmf</p>
+       <p> <i>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>yergh feksnfksemnfk</p>
       </div>   
 
     </div>

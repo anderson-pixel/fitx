@@ -1,6 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
-import catimg from '../../../images/catshot.png'
+import React from 'react';
+import styled from 'styled-components';
+import catimg from '../../../images/catshot.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook,faTwitter,faInstagram,faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 const TeamContainer = styled.section`
 width: 100%;
@@ -21,10 +24,10 @@ function Team() {
             <h3>aolo</h3>
           </div>
           <div className="share">
-            <a href='' className="fab fa-facebook-f"></a>
-            <a href='' className="fab fa-twitter"></a>
-            <a href='' className="fab fa-instagram"></a>
-            <a href='' className="fab fa-linkedin"></a>
+          <a href=''><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faLinkedin} size="1x"/></i></a>
           </div>
         </div>
 
@@ -34,10 +37,10 @@ function Team() {
             <h3>bolo</h3>
           </div>
           <div className="share">
-            <a href='' className="fab fa-facebook-f"></a>
-            <a href='' className="fab fa-twitter"></a>
-            <a href='' className="fab fa-instagram"></a>
-            <a href='' className="fab fa-linkedin"></a>
+          <a href=''><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faLinkedin} size="1x"/></i></a>
           </div>
         </div>
 
@@ -47,10 +50,10 @@ function Team() {
             <h3>colo</h3>
           </div>
           <div className="share">
-            <a href='' className="fab fa-facebook-f"></a>
-            <a href='' className="fab fa-twitter"></a>
-            <a href='' className="fab fa-instagram"></a>
-            <a href='' className="fab fa-linkedin"></a>
+          <a href=''><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faLinkedin} size="1x"/></i></a>
           </div>
         </div>
 
@@ -60,10 +63,10 @@ function Team() {
             <h3>dolo</h3>
           </div>
           <div className="share">
-            <a href='' className="fab fa-facebook-f"></a>
-            <a href='' className="fab fa-twitter"></a>
-            <a href='' className="fab fa-instagram"></a>
-            <a href='' className="fab fa-linkedin"></a>
+            <a href=''><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href=''><i><FontAwesomeIcon icon={faLinkedin} size="1x"/></i></a>
           </div>
         </div>
 

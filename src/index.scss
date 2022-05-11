@@ -281,6 +281,36 @@ code {
   position: relative;
   box-shadow: 0 .1rem .5rem;
 }
+
+.team .box-container .box .share {
+  position: absolute;
+  top: 1rem;
+  right: -100%;
+  display: flex;
+  flex-flow: column;
+}
+.team .box-container .box:hover .share{
+  right: 0;
+}
+.team .box-container .box .share a{
+  height: 4rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  color: #333;
+  font-size: 2rem;
+  background: #fff;
+  margin: .5rem 1rem;
+}
+.team .box-container .box .share a:hover {
+  background: red;
+  color: #fff;
+}
+
+.team .box-container .box img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
 .team .box-container .box .info {
   color: #333;
   background: #fff;
