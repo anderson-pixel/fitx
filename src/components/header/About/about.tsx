@@ -18,9 +18,9 @@ function About() {
           </div>
 
           <div className="content">
-            <h3>yergh</h3>
+            <h3><span>about us</span></h3>
+            <h1>Daily Workout And Stay Active at Home</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem enim impedit vitae dignissimos, deleniti omnis pariatur eum fugit libero, distinctio tempora voluptatem reiciendis, voluptate saepe corporis unde illo repellendus.</p>
-            <a href='#menu' className="btn">our menu</a>
           </div>
 
     </AboutContainer>

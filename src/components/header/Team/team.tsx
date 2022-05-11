@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import catimg from '../../../images/catshot.png';
+import trainer1 from '../../../images/trainer1.jpg'
+import trainer2 from '../../../images/trainer2.jpg'
+import trainer3 from '../../../images/trainer3.jpg'
+import trainer4 from '../../../images/trainer4.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faTwitter,faInstagram,faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -23,7 +27,7 @@ function Team() {
       <div className="box-container">
 
         <div className="box">
-          <img src={catimg} alt=''></img>
+          <img src={trainer1} alt=''></img>
           <div className="info">
             <h3>aolo</h3>
           </div>
@@ -36,7 +40,7 @@ function Team() {
         </div>
 
         <div className="box">
-          <img src={catimg} alt=''></img>
+          <img src={trainer2} alt=''></img>
           <div className="info">
             <h3>bolo</h3>
           </div>
@@ -49,7 +53,7 @@ function Team() {
         </div>
 
         <div className="box">
-          <img src={catimg} alt=''></img>
+          <img src={trainer3} alt=''></img>
           <div className="info">
             <h3>colo</h3>
           </div>
@@ -62,7 +66,7 @@ function Team() {
         </div>
 
         <div className="box">
-          <img src={catimg} alt=''></img>
+          <img src={trainer4} alt=''></img>
           <div className="info">
             <h3>dolo</h3>
           </div>

@@ -211,6 +211,10 @@ code {
 
 .pricing{
 
+  .aboutSpa {
+    color:white;
+  }
+
   .box-container{
      @include grid(29rem);
      margin-top: 8rem;
@@ -277,7 +281,7 @@ code {
 .team .box-container .box {
   height: 40rem;
   margin: 1.5rem 1rem;
-  width: 21rem;
+  width: 24rem;
   overflow: hidden;
   position: relative;
   box-shadow: 0 .1rem .5rem;
@@ -361,7 +365,11 @@ code {
   flex: 1 1 40rem;
 }
 .about .content h3 {
-  font-size: 4rem;
+  font-size: 1.7rem;
+  color: red;
+}
+.about .content h1 {
+  font-size: 2.6rem;
   color: #fff;
 }
 .about .content p{

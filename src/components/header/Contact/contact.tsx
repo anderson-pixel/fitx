@@ -7,6 +7,7 @@ const ContactContainer = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: #070707;
 
 h1 {
   color: #fff;

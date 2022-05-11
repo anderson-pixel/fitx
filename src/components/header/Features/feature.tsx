@@ -8,6 +8,7 @@ width: 100vw;
 display: grid;
 place-items: center;
 padding: 3rem 2rem;
+background: #d11a2a;
 
 @media (max-width: 1000px) {
     height: 900px;

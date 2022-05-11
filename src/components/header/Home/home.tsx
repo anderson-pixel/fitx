@@ -5,7 +5,14 @@ import imghome from '../../../images/img6.jpg'
 const HomeContainer = styled.section`
 padding: 0;
 height: 670px;
-background: url(${imghome});
+background: url(${imghome}), linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+background-size: cover;
+background-position: center;
+background-blend-mode: multiply;
+background-attachment: fixed;
+padding-top: 5rem;
+position: relative;
+text-align: center;
 
 .slide {
     min-height:70vh;
@@ -60,7 +67,7 @@ const Home = () => {
              <div className="content">
                  <span>Yeah</span>
                  <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                 <a href="#" className="btn">get started</a>
+                 <a href="#features" className="btn">get started</a>
              </div>
          </div>
 

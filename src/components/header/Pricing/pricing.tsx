@@ -7,6 +7,7 @@ const PricingContainer = styled.section`
 height: auto;
 width: 100%;
 color: ${props => props.theme.colors.text};
+background: #d11a2a;
 
 @media (max-width: 835px) {
   height: 970px;
@@ -39,7 +40,7 @@ function Pricing() {
   return (
     <PricingContainer className="pricing" id='pricing'>
       <div className="heading">
-        <span>choose a plan</span>
+        <span className="aboutSpa">choose a plan</span>
         <h3>Find The Perfect Plan</h3>
       </div>
 
