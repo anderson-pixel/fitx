@@ -1,10 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck,faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const PricingContainer = styled.section`
-height: 750px;
+height: 800px;
 width: 100%;
 color: ${props => props.theme.colors.text};
+
+@media (max-width: 835px) {
+  height: 970px;
+}
+@media (max-width: 558px) {
+  height: 1350px;
+}
 
 .link-btn {
   margin-top: 1rem;
@@ -40,11 +49,11 @@ function Pricing() {
           <div className="price"><span>$</span>30<span>mo</span></div>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
-            <p> <i className="fas fa-check"></i> personal training </p>
-            <p> <i className="fas fa-check"></i> classes per week </p>
-            <p> <i className="fas fa-check"></i> access to gym </p>
-            <p> <i className="fas fa-check"></i> protein powder </p>
-            <p> <i className="fas fa-check"></i> membership </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> access to gym </p>
+            <p> <i><FontAwesomeIcon icon={faTimes} size="1x"/></i> protein powder </p>
+            <p> <i><FontAwesomeIcon icon={faTimes} size="1x"/></i> membership </p>
           </div>
         </div>
 
@@ -54,11 +63,11 @@ function Pricing() {
           <h2 className="h2-pop"><span>Most Popular</span></h2>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
-            <p> <i className="fas fa-check"></i> personal training </p>
-            <p> <i className="fas fa-check"></i> classes per week </p>
-            <p> <i className="fas fa-check"></i> access to gym </p>
-            <p> <i className="fas fa-check"></i> protein powder </p>
-            <p> <i className="fas fa-times"></i> membership </p>
+          <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> access to gym </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> protein powder </p>
+            <p> <i><FontAwesomeIcon icon={faTimes} size="1x"/></i> membership </p>
           </div>
         </div>
 
@@ -67,11 +76,11 @@ function Pricing() {
           <div className="price"><span>$</span>90<span>mo</span></div>
           <a href='' className="link-btn">choose your plan</a>
           <div className="list">
-            <p> <i className="fas fa-check"></i> personal training </p>
-            <p> <i className="fas fa-check"></i> classes per week </p>
-            <p> <i className="fas fa-check"></i> access to gym </p>
-            <p> <i className="fas fa-check"></i> protein powder </p>
-            <p> <i className="fas fa-check"></i> membership </p>
+          <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> access to gym </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> protein powder </p>
+            <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> membership </p>
           </div>
         </div>
 

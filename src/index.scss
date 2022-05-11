@@ -254,7 +254,7 @@ code {
 
               i{
                  padding-right: .5rem;
-                 color:$orange;
+                 color:$red;
 
                  &.fa-times{
                     color:$white;
@@ -272,11 +272,12 @@ code {
 
 .team .heading{
   color: #fff;
+  font-size: 3rem;
 }
 .team .box-container .box {
   height: 40rem;
   margin: 1.5rem 1rem;
-  width: 24.3rem;
+  width: 21rem;
   overflow: hidden;
   position: relative;
   box-shadow: 0 .1rem .5rem;

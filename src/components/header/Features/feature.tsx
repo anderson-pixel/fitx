@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import catimg from '../../../images/catshot.png'
 
 const FeaturesContainer = styled.section`
-height: 650px;
+height: auto;
 width: 100vw;
 display: grid;
 place-items: center;
