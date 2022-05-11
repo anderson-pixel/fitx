@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 const ContactContainer = styled.section`
   width:100%;
+  height: 580px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -59,8 +60,8 @@ textarea {
 
 function Contact() {
   return (
-    <ContactContainer>
-        <div id='contact'>
+    <ContactContainer id='contact'>
+        <div>
             <h1>Contact Us</h1>
             <form>
                 <input type='text' placeholder='Full Name' required/>

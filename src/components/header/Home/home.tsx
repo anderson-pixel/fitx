@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import imghome from '../../../images/img6.jpg'
 
 const HomeContainer = styled.section`
 padding: 0;
-margin-top: 6.5rem;
-height: 470px;
+height: 670px;
+background: url(${imghome});
 
 .slide {
     min-height:70vh;
@@ -29,16 +30,19 @@ height: 470px;
         .btn {
             margin-top: 1rem;
             display: inline-block;
-            padding:1rem 2.8rem;
-            padding-right: 3rem;
-            background: linear-gradient(130deg, red, transparent 90%);
+            padding:1rem 3rem;
+            background: white;
+            color: red;
+            border: 1px solid red;
             cursor: pointer;
-            font-size: 1.7rem;
-            color: ${props => props.theme.colors.text};
-
-            &:hover {
-                transform: scale(1.1);
-            }
+            border-radius: .5rem;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+            background: red;
+            color: white; 
+        }
         }
     }
 }

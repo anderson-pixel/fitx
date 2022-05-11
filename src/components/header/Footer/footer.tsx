@@ -21,7 +21,8 @@ function Footer() {
       <div className="box">
         <h3>links</h3>
         <a className="links" href="#home">home</a>
-          <a className="links" href="#fetures">features</a>
+          <a className="links" href="#about">about</a>
+          <a className="links" href="#features">features</a>
           <a className="links" href="#pricing">pricing</a>
           <a className="links" href="#trainers">trainers</a>
           <a className="links" href="#contact">contact</a>

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck,faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const PricingContainer = styled.section`
-height: 800px;
+height: auto;
 width: 100%;
 color: ${props => props.theme.colors.text};
 
@@ -12,7 +12,7 @@ color: ${props => props.theme.colors.text};
   height: 970px;
 }
 @media (max-width: 558px) {
-  height: 1350px;
+  height: 1390px;
 }
 
 .link-btn {
@@ -40,7 +40,7 @@ function Pricing() {
     <PricingContainer className="pricing" id='pricing'>
       <div className="heading">
         <span>choose a plan</span>
-        <h3>something</h3>
+        <h3>Find The Perfect Plan</h3>
       </div>
 
       <div className="box-container container">

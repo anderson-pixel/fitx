@@ -86,9 +86,9 @@ h1 {
 
 const Feature = () => {
   return (
-    <FeaturesContainer>
+    <FeaturesContainer id='features'>
 
-      <h1 id='features' className="fe1">FEATURES</h1>
+      <h1 className="fe1">FEATURES</h1>
 
       <div className="card-container">
 

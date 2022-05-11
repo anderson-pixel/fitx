@@ -11,6 +11,7 @@ import Pricing from './components/header/Pricing/pricing';
 import Team from './components/header/Team/team';
 import Footer from './components/header/Footer/footer';
 import Contact from './components/header/Contact/contact';
+import About from './components/header/About/about';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Header toggleTheme={toggleTheme}/>
       <Home/>
       <Feature />
+      <About />
       <Pricing />
       <Team />
       <Contact/>

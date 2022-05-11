@@ -23,6 +23,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         
         <nav className="navbar">
           <a href="#home">home</a>
+          <a href="#about">about</a>
           <a href="#features">features</a>
           <a href="#pricing">pricing</a>
           <a href="#trainers">trainers</a>
@@ -38,7 +39,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         width={40}
         handleDiameter={20}
         offColor={shade(0.40, colors.primary)}
-        onColor={colors.secundary}
+        onColor={shade(0.60,colors.secundary)}
         />
 
         <div  className="fas fa-bars">
