@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import catimg from '../../../images/catshot.png'
+import feature1 from '../../../images/feature1.jpg'
+import catimg from '../../../images/nexticon.png'
 
 const FeaturesContainer = styled.section`
 height: auto;
@@ -94,7 +95,7 @@ const Feature = () => {
       <div className="card-container">
 
         <div className="card">
-          <img src={catimg} alt=''></img>
+          <img src={feature1} alt=''></img>
           <div className="content">
             <h1>Weight training</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
@@ -114,7 +115,7 @@ const Feature = () => {
         <div className="card">
           <img src={catimg} alt=''></img>
           <div className="content">
-            <h1>Placeholder</h1>
+            <h1>Diet</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
             <a href='#'><button>learn more</button></a>
           </div>

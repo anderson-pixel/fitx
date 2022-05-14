@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck,faCheckSquare } from '@fortawesome/free-solid-svg-icons';
-import aboutimg from '../../../images/aboutimg.png'
+import aboutimg from '../../../images/fitx1.png'
 
 const AboutContainer = styled.section`
 height: auto;
@@ -14,7 +14,7 @@ function About() {
     <AboutContainer className='about' id='about'>
 
       <div className="image">
-            <img src={aboutimg} className='w-100' alt=''></img>
+            <img style={{}} src={aboutimg} className='' alt=''></img>
           </div>
 
           <div className="content">
