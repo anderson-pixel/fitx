@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import feature1 from '../../../images/feature1.jpg'
-import catimg from '../../../images/nexticon.png'
+import feature2 from '../../../images/feature2.jpg'
+import feature3 from '../../../images/feature3.jpg'
 
 const FeaturesContainer = styled.section`
 height: auto;
@@ -39,9 +40,12 @@ h1 {
     background: #fff;
 
     img {
-      width: 100%;
-      height: 50%;
-      object-fit: cover;
+      display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
     }
     .content {
       height: 50%;
@@ -104,7 +108,7 @@ const Feature = () => {
         </div>
 
         <div className="card">
-          <img src={catimg} alt=''></img>
+          <img src={feature2} alt=''></img>
           <div className="content">
             <h1>Cardio</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
@@ -113,7 +117,7 @@ const Feature = () => {
         </div>
 
         <div className="card">
-          <img src={catimg} alt=''></img>
+          <img src={feature3} alt=''></img>
           <div className="content">
             <h1>Diet</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
