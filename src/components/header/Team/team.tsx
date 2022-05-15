@@ -31,9 +31,9 @@ function Team() {
             <h3>Shane P. McCurdy</h3>
           </div>
           <div className="share">
-          <a href='#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+          <a href='!#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
           </div>
         </div>
 
@@ -43,9 +43,9 @@ function Team() {
             <h3>Sarah J. Cooper</h3>
           </div>
           <div className="share">
-          <a href='#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+          <a href='!#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
           </div>
         </div>
 
@@ -55,9 +55,9 @@ function Team() {
             <h3>Willie R. Gahagan</h3>
           </div>
           <div className="share">
-            <a href='#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
           </div>
         </div>
 
@@ -67,9 +67,9 @@ function Team() {
             <h3>Michele J. Baker</h3>
           </div>
           <div className="share">
-            <a href='#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
-            <a href='#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faFacebook} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faTwitter} size="1x"/></i></a>
+            <a href='!#'><i><FontAwesomeIcon icon={faInstagram} size="1x"/></i></a>
           </div>
         </div>
 

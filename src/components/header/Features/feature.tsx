@@ -12,13 +12,6 @@ place-items: center;
 padding: 3rem 2rem;
 background: #d11a2a;
 
-@media (max-width: 1000px) {
-    height: 900px;
-}
-@media (max-width: 668px) {
-    height: 1500px
-}
-
 
 h1 {
   color: white;
@@ -103,7 +96,7 @@ const Feature = () => {
           <div className="content">
             <h1>Weight training</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
-            <a href='#'><button>learn more</button></a>
+            <a href='!#'><button>learn more</button></a>
           </div>
         </div>
 
@@ -112,7 +105,7 @@ const Feature = () => {
           <div className="content">
             <h1>Cardio</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
-            <a href='#'><button>learn more</button></a>
+            <a href='!#'><button>learn more</button></a>
           </div>
         </div>
 
@@ -121,7 +114,7 @@ const Feature = () => {
           <div className="content">
             <h1>Diet</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
-            <a href='#'><button>learn more</button></a>
+            <a href='!#'><button>learn more</button></a>
           </div>
         </div>
 

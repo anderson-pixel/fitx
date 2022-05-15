@@ -7,6 +7,13 @@ import aboutimg from '../../../images/fitx1.png'
 const AboutContainer = styled.section`
 height: auto;
 width: 100%;
+
+ul {
+  font-size: 1.3rem;
+}
+li {
+  padding: 1rem 0;
+}
 `
 
 function About() {
@@ -18,18 +25,18 @@ function About() {
           </div>
 
           <div className="content">
-            <h3><span>about us</span></h3>
+            <h3><span>about Fitx</span></h3>
             <h1>Daily Workout And Stay Active at Home</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem enim impedit vitae dignissimos, deleniti omnis pariatur eum fugit libero, distinctio tempora voluptatem reiciendis, voluptate saepe corporis unde illo repellendus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem enim</p>
             <ul>
               <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Lorem ipsum dolor ehenderit deleniti dolore doloribus tempora numquam, ab fugit!</li>
+       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Fast 45 minute workouts, get you in and out of the gym quick</li>
        <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Lorem ipsum dolor ehenderit deleniti dolore doloribus tempora numquam, ab fugit!</li>
+       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Short HIIT cardio sessions that rapidly accelerate fat loss and keep you burning fat for 48 hours after your cardio session</li>
        <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Lorem ipsum dolor ehenderit deleniti dolore doloribus tempora numquam, ab fugit!</li>
+       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Recipes and dieting tips to finally get you a symetrical 6 pack</li>
        <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Lorem ipsum dolor ehenderit deleniti dolore doloribus tempora numquam, ab fugit!</li>
+       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>30 day 100% money back guarantee</li>
             </ul>
           </div>
 

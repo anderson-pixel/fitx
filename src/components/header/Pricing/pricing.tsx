@@ -10,10 +10,10 @@ color: ${props => props.theme.colors.text};
 background: #d11a2a;
 
 @media (max-width: 835px) {
-  height: 970px;
+  height: 1000px;
 }
 @media (max-width: 558px) {
-  height: 1390px;
+  height: 1430px;
 }
 
 .link-btn {
@@ -41,14 +41,14 @@ function Pricing() {
     <PricingContainer className="pricing" id='pricing'>
       <div className="heading">
         <span className="aboutSpa">choose your plan</span>
-        <h3>Find The Perfect Plan</h3>
+        <h3>Find The Best Option For You</h3>
       </div>
 
       <div className="box-container container">
         <div className="box">
           <h3>basic plan</h3>
           <div className="price"><span>$</span>30<span>mo</span></div>
-          <a href='' className="link-btn">buy this plan</a>
+          <a href='!' className="link-btn">buy this plan</a>
           <div className="list">
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
@@ -62,7 +62,7 @@ function Pricing() {
           <h3>premium plan</h3>
           <div className="price"><span>$</span>55<span>mo</span></div>
           <h2 className="h2-pop"><span>Most Popular</span></h2>
-          <a href='' className="link-btn">buy this plan</a>
+          <a href='!' className="link-btn">buy this plan</a>
           <div className="list">
           <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
@@ -75,7 +75,7 @@ function Pricing() {
         <div className="box">
           <h3>ultimate plan</h3>
           <div className="price"><span>$</span>80<span>mo</span></div>
-          <a href='' className="link-btn">buy this plan</a>
+          <a href='!' className="link-btn">buy this plan</a>
           <div className="list">
           <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
