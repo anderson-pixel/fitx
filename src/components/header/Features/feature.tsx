@@ -40,7 +40,7 @@ h1 {
     background: #fff;
 
     img {
-      display:block;
+  display:block;
   margin-left:auto;
   margin-right:auto;
   width: 100%;
@@ -99,7 +99,7 @@ const Feature = () => {
       <div className="card-container">
 
         <div className="card">
-          <img src={feature1} alt=''></img>
+          <img style={{width: '100%'}} src={feature1} alt=''></img>
           <div className="content">
             <h1>Weight training</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>

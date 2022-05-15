@@ -14,7 +14,7 @@ function About() {
     <AboutContainer className='about' id='about'>
 
       <div className="image">
-            <img style={{}} src={aboutimg} className='' alt=''></img>
+            <img src={aboutimg} className='' alt=''></img>
           </div>
 
           <div className="content">

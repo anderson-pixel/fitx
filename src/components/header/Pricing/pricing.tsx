@@ -40,7 +40,7 @@ function Pricing() {
   return (
     <PricingContainer className="pricing" id='pricing'>
       <div className="heading">
-        <span className="aboutSpa">choose a plan</span>
+        <span className="aboutSpa">choose your plan</span>
         <h3>Find The Perfect Plan</h3>
       </div>
 
@@ -48,7 +48,7 @@ function Pricing() {
         <div className="box">
           <h3>basic plan</h3>
           <div className="price"><span>$</span>30<span>mo</span></div>
-          <a href='' className="link-btn">choose your plan</a>
+          <a href='' className="link-btn">buy this plan</a>
           <div className="list">
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
@@ -60,9 +60,9 @@ function Pricing() {
 
         <div className="box">
           <h3>premium plan</h3>
-          <div className="price"><span>$</span>60<span>mo</span></div>
+          <div className="price"><span>$</span>55<span>mo</span></div>
           <h2 className="h2-pop"><span>Most Popular</span></h2>
-          <a href='' className="link-btn">choose your plan</a>
+          <a href='' className="link-btn">buy this plan</a>
           <div className="list">
           <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
@@ -74,8 +74,8 @@ function Pricing() {
 
         <div className="box">
           <h3>ultimate plan</h3>
-          <div className="price"><span>$</span>90<span>mo</span></div>
-          <a href='' className="link-btn">choose your plan</a>
+          <div className="price"><span>$</span>80<span>mo</span></div>
+          <a href='' className="link-btn">buy this plan</a>
           <div className="list">
           <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> personal training </p>
             <p> <i><FontAwesomeIcon icon={faCheck} size="1x"/></i> classes per week </p>
