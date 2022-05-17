@@ -16,7 +16,7 @@ background: #d11a2a;
 h1 {
   color: white;
   font-size: 4rem;
-  margin:2rem 0;
+  margin:1rem 0;
 }
 
 .card-container{
@@ -50,18 +50,9 @@ h1 {
         font-size: 2.5rem;
       }
       p{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         padding: .5rem;
         color: black;
-
-        
-        @media (max-width: 468px) {
-          font-size: 1.1rem;
-        }
-
-        @media (max-width: 328px) {
-          font-size: 1rem;
-        }
       }
       button {
         margin: 1rem 0;
@@ -94,8 +85,8 @@ const Feature = () => {
         <div className="card">
           <img style={{width: '100%'}} src={feature1} alt=''></img>
           <div className="content">
-            <h1>Weight training</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <h1>Muscle Building</h1>
+            <p>exercises that will build you great functional strength, reducing stress on your joints in the process, resulting in a longer lifespan for those joints</p>
             <a href='!#'><button>learn more</button></a>
           </div>
         </div>
@@ -103,8 +94,8 @@ const Feature = () => {
         <div className="card">
           <img src={feature2} alt=''></img>
           <div className="content">
-            <h1>Cardio</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <h1>Fat Loss</h1>
+            <p>Tips to help you Lose weight, especially belly fat, improving blood vessel functionality, sleep quality, and getting you the chiseled 6-pack you’ve always dreamed of.</p>
             <a href='!#'><button>learn more</button></a>
           </div>
         </div>
@@ -113,7 +104,7 @@ const Feature = () => {
           <img src={feature3} alt=''></img>
           <div className="content">
             <h1>Diet</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae fuga est dolor totam obcaecati aliquid distinctio sint harum, velit sit cum ipsum eius necessitatibus porro, vitae ex facilis natus in?</p>
+            <p>When Building Muscle Your Diet is Responsible For at Least 80% of Your Results, Find The Right Diet For You And Enjoy The Multiple Benefits of Your New Life Style</p>
             <a href='!#'><button>learn more</button></a>
           </div>
         </div>
