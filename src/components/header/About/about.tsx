@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare } from '@fortawesome/free-solid-svg-icons';
-import aboutimg from '../../../images/running_man.png'
+import aboutimg from '../../../images/hunnit.png'
 
 const AboutContainer = styled.section`
 height: auto;
