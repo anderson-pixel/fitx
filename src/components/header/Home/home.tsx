@@ -77,8 +77,9 @@ const Home = () => {
 
          <div className="slide" style={{backgroundImage: "url('')  no-repeat;"}}>
              <div className="content">
-                 <span>Yeah</span>
-                 <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                 <h3>RESULTS, BUILT FOR YOUR BODY</h3>
+                 <h4 style={{fontSize: '2rem'}}>World-Class Training Programs, Custom Diet Plans, Premium Content, and 1-1
+Training with Certified Fitx Coaches!</h4>
                  <a href="#features" className="btn">get started</a>
              </div>
          </div>

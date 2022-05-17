@@ -39,7 +39,6 @@ function About() {
        <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>30 day 100% money back guarantee</li>
             </ul>
           </div>
-
     </AboutContainer>
   )
 }
