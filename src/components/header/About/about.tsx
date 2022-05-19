@@ -2,14 +2,68 @@ import React from 'react'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare } from '@fortawesome/free-solid-svg-icons';
-import aboutimg from '../../../images/fitx1.png';
+import aboutimg from '../../../images/about-img.jpg';
 
 const AboutContainer = styled.section`
-height: auto;
-width: 100%;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 8rem;
+
+.image {
+  flex: 1 1 42rem;
+  position: relative;
+  img{
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+.content {
+  flex: 1 1 42rem;
+
+  span {
+    font-size: 2rem;
+    color: red;
+  }
+  .title {
+    font-size: 4rem;
+    color: white;
+    margin-top: .5rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+
+    .box {
+      flex: 1 1 20rem;
+
+      h3{
+        font-size: 2rem;
+        color: white;
+
+        i{
+          padding-right: 1.5rem;
+          color: red;
+        }
+      }
+    }
+  }
+}
 
 ul {
   font-size: 1.3rem;
+  color: #fff;
 }
 li {
   padding: 3rem 0;
@@ -21,23 +75,32 @@ function About() {
     <AboutContainer className='about' id='about'>
 
       <div className="image">
-            <img style={{height: '400px'}} src={aboutimg} className='' alt=''></img>
+            <img src={aboutimg} className='' alt=''></img>
           </div>
 
           <div className="content">
             <h3><span>about Fitx</span></h3>
-            <h1>Daily Workout And Stay Active at Home</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio exercitationem enim</p>
-            <ul>
-              <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Fast 45 minute workouts, get you in and out of the gym quick</li>
-       <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Short HIIT cardio sessions that rapidly accelerate fat loss and keep you burning fat for 48 hours after your cardio session</li>
-       <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>Recipes and dieting tips to finally get you a symetrical 6 pack</li>
-       <li> <i>
-       <FontAwesomeIcon icon={faCheckSquare} size="1x"/> </i>30 day 100% money back guarantee</li>
-            </ul>
+            <h2 className="title">Every Time i Wake Up is Another Day </h2>
+            <p>gotta get that paper in another way</p>
+            <div className="box-container">
+              <div className="box">
+                <h3><i className="fas fa-check"></i>body and mind</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+              </div>
+              <div className="box">
+                <h3><i className="fas fa-check"></i>healthy life</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+              </div>
+              <div className="box">
+                <h3><i className="fas fa-check"></i>strategies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+              </div>
+              <div className="box">
+                <h3><i className="fas fa-check"></i>workout</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+              </div>
+            </div>
+            <a href="#" className="btn">read more</a>
           </div>
     </AboutContainer>
   )

@@ -11,6 +11,7 @@ import { faFacebook,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-i
 const TeamContainer = styled.section`
 width: 100%;
 height: auto;
+background: #111;
 
 @media (max-width: 460px) {
   height: 1700px;

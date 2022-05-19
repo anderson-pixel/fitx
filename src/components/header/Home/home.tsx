@@ -7,7 +7,7 @@ background: url(${imghome}), linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
 background-size: cover;
 background-position: center;
 background-blend-mode: multiply;
-background-attachment: fixed;
+color: #fff;
 `
 
 const HomeContainer = styled.section`
@@ -45,6 +45,7 @@ align-items: center;
         h3 {
             font-size: 5rem;
             padding: 1rem 0; 
+            color: #fff;
             @media (max-width: 768px) {
                 font-size: 4rem;
     }
