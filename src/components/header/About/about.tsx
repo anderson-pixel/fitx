@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare } from '@fortawesome/free-solid-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import aboutimg from '../../../images/about-img.jpg';
 
 const AboutContainer = styled.section`
@@ -9,6 +10,7 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 gap: 8rem;
+background: #111;
 
 .image {
   flex: 1 1 42rem;
@@ -84,19 +86,23 @@ function About() {
             <p>gotta get that paper in another way</p>
             <div className="box-container">
               <div className="box">
-                <h3><i className="fas fa-check"></i>body and mind</h3>
+                <h3><i>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>body and mind</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
               </div>
               <div className="box">
-                <h3><i className="fas fa-check"></i>healthy life</h3>
+                <h3><i>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>healthy life</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
               </div>
               <div className="box">
-                <h3><i className="fas fa-check"></i>strategies</h3>
+                <h3><i>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>strategies</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
               </div>
               <div className="box">
-                <h3><i className="fas fa-check"></i>workout</h3>
+                <h3><i>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>workout</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
               </div>
             </div>
