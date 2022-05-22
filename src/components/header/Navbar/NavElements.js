@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 export const NavMainCont = styled.div`
 
 .navbar {
-    background: transparent;
-    height: 50px;
+background: transparent;
+height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -17,7 +17,7 @@ position: fixed;
 }
 
 .navbar.active {
-    background: #282828;
+    background: #111;
 }
 `
 
@@ -91,8 +91,8 @@ grid-gap: 0px;
 list-style: none;
 text-align: center;
 width: 70vw;
-margin: 0px 0px 0px 0px;
-justify-content: start;
+margin: 0px;
+justify-content: space-between;
 
 @media screen and (max-width: 900px) {
     display: none;
@@ -109,12 +109,12 @@ padding: 0px 0px 0px 0px;
 position: absolute;
 height: 100%;
 cursor: pointer;
-margin: 17px 0px 0px 0px;
+margin: 17px 0px 0px 200px;
 
 .active {
    margin: 13px 0px 0px 0px;
    padding-bottom: 10px;
-   border-bottom: 2.5px solid red;
+   border-bottom: 1px solid red;
    position: relative;
    color: red;
 }

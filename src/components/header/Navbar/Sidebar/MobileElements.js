@@ -10,7 +10,7 @@ height: 100%;
 background: #0b090a;
 display: grid;
 align-items: center;
-top: 0;
+top: 0px;
 left: 0;
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
@@ -38,7 +38,7 @@ color: #fff;
 export const MobileMenu = styled.ul`
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(5, 85px);
+grid-template-rows: repeat(6, 85px);
 text-align: center;
 `
 

@@ -53,7 +53,7 @@ align-items: center;
         .btn {
             margin-top: 1rem;
             display: inline-block;
-            padding:1rem 3rem;
+            padding:0.5rem 2rem;
             background: white;
             color: red;
             border: 1px solid red;
