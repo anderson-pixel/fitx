@@ -9,7 +9,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 0 9%;
-background: ${props => props.theme.colors.primary};
+background: #222;
 color: #fff;
 z-index: 10000;
 
