@@ -12,6 +12,20 @@ flex-wrap: wrap;
 gap: 8rem;
 background: #111;
 
+.about-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding:1rem 3rem;
+  background: red;
+  color: white;
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+}
+
 .image {
   flex: 1 1 42rem;
   position: relative;
@@ -82,31 +96,31 @@ function About() {
 
           <div className="content">
             <h3><span>about Fitx</span></h3>
-            <h2 className="title">Every Time i Wake Up is Another Day </h2>
-            <p>gotta get that paper in another way</p>
+            <h2 className="title"></h2>
+            <p></p>
             <div className="box-container">
               <div className="box">
                 <h3><i>
-       <FontAwesomeIcon icon={faCheck} size="1x"/></i>body and mind</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>Custom Workouts</h3>
+                <p>All the exercises that work for your body type...and get you serious RESULTS!</p>
               </div>
               <div className="box">
                 <h3><i>
-       <FontAwesomeIcon icon={faCheck} size="1x"/></i>healthy life</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>Custom Meal Plan</h3>
+                <p>The best fat-burning and muscle-building foods designed for your body type and metabolism.</p>
               </div>
               <div className="box">
                 <h3><i>
-       <FontAwesomeIcon icon={faCheck} size="1x"/></i>strategies</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>24/7 Support</h3>
+                <p>UNLIMITED email and text message support with your own trainer</p>
               </div>
               <div className="box">
                 <h3><i>
-       <FontAwesomeIcon icon={faCheck} size="1x"/></i>workout</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, hic.</p>
+       <FontAwesomeIcon icon={faCheck} size="1x"/></i>30 Day 100% Refund</h3>
+                <p>30 Day trial period with 100% Refund guaranteed</p>
               </div>
             </div>
-            <a href="#" className="btn">read more</a>
+            <a href="#" className="about-btn">read more</a>
           </div>
     </AboutContainer>
   )

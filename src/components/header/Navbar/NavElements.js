@@ -114,7 +114,7 @@ margin: 17px 0px 0px 200px;
 .active {
    margin: 13px 0px 0px 0px;
    padding-bottom: 10px;
-   border-bottom: 1px solid red;
+   border-bottom: 1.5px solid red;
    position: relative;
    color: red;
 }

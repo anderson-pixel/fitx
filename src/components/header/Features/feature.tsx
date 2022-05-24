@@ -50,23 +50,20 @@ h1 {
         font-size: 2.5rem;
       }
       p{
-        font-size: 1.25rem;
+        font-size: 1.37rem;
         padding: .5rem;
         color: black;
       }
       button {
-        margin: 1rem 0;
-        border: 2px solid red;
+        margin: 1rem 2rem;
         border-radius: 5px;
-        color: red;
+        color: white;
         padding: .5rem;
+        background: red;
         transition: all 0.2s ease-out;
         cursor: pointer;
 
         &:hover {
-          background: red;
-          color: white;
-          border: 2px solid white;
         }
       }
     }
@@ -95,7 +92,7 @@ const Feature = () => {
           <img src={feature2} alt=''></img>
           <div className="content">
             <h1>Fat Loss</h1>
-            <p>Tips to help you Lose weight, especially belly fat, improving blood vessel functionality, sleep quality, and getting you the chiseled 6-pack you’ve always dreamed of.</p>
+            <p>Coaching to help you Lose weight, improving blood vessel functionality, sleep quality, and getting you the chiseled 6-pack you’ve always dreamed of.</p>
             <a href='!#'><button>learn more</button></a>
           </div>
         </div>

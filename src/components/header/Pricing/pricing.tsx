@@ -20,18 +20,14 @@ background: #d11a2a;
   margin-top: 1rem;
    display: inline-block;
    padding:1rem 3rem;
-   background: white;
-   color: red;
+   background: red;
+   color: white;
    border: 1px solid red;
    cursor: pointer;
    border-radius: .5rem;
    font-size: 1.8rem;
    text-transform: capitalize;
    transition: all 0.2s ease-in-out;
-   &:hover{
-      background: red;
-      color: white;
-   }
 }
 `
 
