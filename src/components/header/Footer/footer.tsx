@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const FooterContainer = styled.div`
-height: 500px;
+height: auto;
 width: 100%;
 background: black;
 justify-content: center;
@@ -16,6 +16,17 @@ display: grid;
 function Footer() {
   return (
      <FooterContainer className="footercont">
+
+      <div className="credit">
+      <h3 style={{ fontSize: '2rem',
+        textAlign: 'center',
+        padding:'1rem',
+        color:'white',
+        lineHeight: '1.5',
+        }}
+        >Created by <span>Anderson Pereira</span> | all rights reserved</h3>
+      </div>
+
     <div className="box-container">
 
       <div className="box">
@@ -49,12 +60,9 @@ function Footer() {
        <p> <i>
        <FontAwesomeIcon icon={faPhone} size="1x"/> </i>yergh feksnfksemnfk</p>
       </div>   
-
     </div>
     </FooterContainer>
   )
 }
-
-<div className="credit">created by <span>abudab</span> | all rights reserved</div>
 
 export default Footer;
