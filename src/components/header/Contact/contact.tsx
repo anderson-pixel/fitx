@@ -68,7 +68,8 @@ textarea {
 
   &:hover {
     color: black;
-    background: white;
+    background: #bdacac;
+    transform: scale(1.1);
   }
 }
 `

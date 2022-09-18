@@ -64,6 +64,7 @@ h1 {
         cursor: pointer;
 
         &:hover {
+          transform: scale(1.1);
         }
       }
     }

@@ -91,6 +91,10 @@ html {
 section {
   padding: 5rem 9%;
 }
+button {
+    background: purple;
+    color: #fff;
+}
 
 @media (max-width: 991px) {
   section{
@@ -114,7 +118,7 @@ code {
     monospace;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
   html {
     font-size: 55%;
   }

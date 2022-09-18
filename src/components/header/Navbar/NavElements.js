@@ -25,13 +25,12 @@ position: fixed;
 
 export const Nav = styled.nav`
 
-
-
 @media screen and (max-width: 960px) {
     transition: all 0.8s ease;
     height: 40px;
 }
 `;
+
 export const NavbarContainer = styled.li`
 display: flex;
 justify-content: space-between;
@@ -49,7 +48,7 @@ max-width: 1300px;
 export const NavAcronym = styled.h1`
 color: #fff;
 position: absolute;
-margin: 31px 0px 0px 10px;
+margin: 29px 0px 0px 10px;
 font-size: 20px;
 
 span {
@@ -72,16 +71,12 @@ display: none;
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 35px;
+    bottom: 20px;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     cursor: pointer;
     color: #fff;
    }
-@media screen and (max-width: 400px) {
-    font-size: 1.6rem;
-    padding: 4.5px 0px 0px 0px;
-}
 `
 
 export const NavMenu = styled.ul`

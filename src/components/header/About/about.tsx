@@ -24,6 +24,10 @@ background: #111;
   font-size: 1.8rem;
   text-transform: capitalize;
   transition: all 0.2s ease-in-out;
+
+  :hover {
+    transform: scale(1.1);
+  }
 }
 
 .image {

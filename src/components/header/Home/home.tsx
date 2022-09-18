@@ -63,6 +63,9 @@ align-items: center;
             text-transform: capitalize;
             transition: all 0.2s ease-in-out;
         }
+        .btn:hover {
+            transform: scale(1.1);
+        }
     }
 }
 `
