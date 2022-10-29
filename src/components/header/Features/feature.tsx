@@ -30,7 +30,7 @@ h1 {
     width: 30rem;
     height: 40rem;
     margin: 2rem;
-    background: #fff;
+    background: #1d0e15;
 
     img {
   display:block;
@@ -46,17 +46,17 @@ h1 {
       text-align: center;
 
       h1{
-        color: red;
+        color: #fff;
         font-size: 2.5rem;
       }
       p{
         font-size: 1.37rem;
         padding: .5rem;
-        color: black;
+        color: #fff;
       }
       button {
         margin: 1rem 2rem;
-        border-radius: 5px;
+        border-radius: .5rem;
         color: white;
         padding: .5rem;
         background: red;
