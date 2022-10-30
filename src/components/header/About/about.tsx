@@ -60,9 +60,6 @@ background: #111;
   }
 
   .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
     margin-top: 1rem;
 
     .box {
