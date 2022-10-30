@@ -24,7 +24,7 @@ function Footer() {
         color:'white',
         lineHeight: '1.5',
         }}
-        >Created by <span>Anderson Pereira</span> | all rights reserved</h3>
+        >Created by <span><a href='https://github.com/anderson-pixel'>Anderson Pereira</a></span> | all rights reserved</h3>
       </div>
 
     <div className="box-container">
