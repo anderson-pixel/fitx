@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import aboutimg from '../../../images/about-img.jpg';
 
@@ -97,7 +96,6 @@ function About() {
 
           <div className="content">
             <h3><span>about Fitx</span></h3>
-            <h2 className="title"></h2>
             <p></p>
             <div className="box-container">
               <div className="box">
