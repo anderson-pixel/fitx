@@ -24,7 +24,7 @@ function Footer() {
         color:'white',
         lineHeight: '1.5',
         }}
-        >Created by <span><a href='https://github.com/anderson-pixel'>Anderson Pereira</a></span> | all rights reserved</h3>
+        >Created by <span><a href='https://github.com/anderson-pixel'>Anderson Pereira</a></span></h3>
       </div>
 
     <div className="box-container">
@@ -54,11 +54,11 @@ function Footer() {
        <p> <i>
        <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890</p>
        <p> <i>
-       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890 </p>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890</p>
        <p> <i>
-       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>@kdkmefmfmesmf</p>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890</p>
        <p> <i>
-       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>yergh feksnfksemnfk</p>
+       <FontAwesomeIcon icon={faPhone} size="1x"/> </i>+123-456-7890</p>
       </div>   
     </div>
     </FooterContainer>
