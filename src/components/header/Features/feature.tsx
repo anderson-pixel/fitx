@@ -39,6 +39,7 @@ h1 {
   width: 100%;
   height: 50%;
   object-fit: cover;
+  cursor: pointer;
     }
     .content {
       height: 50%;
