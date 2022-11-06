@@ -7,7 +7,7 @@ const ContactContainer = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #d11a2a;
+  background: rgb(0, 145, 255);
 
   in-put-msg {
     background-color: black;

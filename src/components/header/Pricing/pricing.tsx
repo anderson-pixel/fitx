@@ -7,7 +7,7 @@ const PricingContainer = styled.section`
 height: auto;
 width: 100%;
 color: ${props => props.theme.colors.text};
-background: #d11a2a;
+background: rgb(0, 145, 255);
 
 @media (max-width: 835px) {
   height: 1000px;
@@ -20,9 +20,9 @@ background: #d11a2a;
   margin-top: 1rem;
    display: inline-block;
    padding:1rem 3rem;
-   background: red;
+   background: rgb(0, 145, 255);
    color: white;
-   border: 1px solid red;
+   border: 1px solid rgb(0, 145, 255);
    cursor: pointer;
    border-radius: .5rem;
    font-size: 1.8rem;

@@ -15,9 +15,9 @@ background: #111;
   margin-top: 1rem;
   display: inline-block;
   padding:1rem 3rem;
-  background: red;
+  background: rgb(0, 145, 255);
   color: white;
-  border: 1px solid red;
+  border: 1px solid rgb(0, 145, 255);
   cursor: pointer;
   border-radius: .5rem;
   font-size: 1.8rem;
@@ -43,7 +43,7 @@ background: #111;
 
   span {
     font-size: 2rem;
-    color: red;
+    color: rgb(0, 145, 255);
   }
   .title {
     font-size: 4rem;
@@ -70,7 +70,7 @@ background: #111;
 
         i{
           padding-right: 1.5rem;
-          color: red;
+          color: rgb(0, 145, 255);
         }
       }
     }

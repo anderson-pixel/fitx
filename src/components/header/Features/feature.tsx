@@ -10,7 +10,7 @@ width: 100vw;
 display: grid;
 place-items: center;
 padding: 3rem 2rem;
-background: #d11a2a;
+background: rgb(0, 145, 255);
 
 
 h1 {
@@ -59,7 +59,7 @@ h1 {
         border-radius: .5rem;
         color: white;
         padding: .5rem;
-        background: red;
+        background: rgb(0, 145, 255);
         transition: all 0.2s ease-out;
         cursor: pointer;
 
