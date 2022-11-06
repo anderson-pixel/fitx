@@ -52,7 +52,7 @@ margin: 29px 0px 0px 10px;
 font-size: 20px;
 
 span {
-    color: red;
+    color: rgb(0, 145, 255);
 }
 `
 
