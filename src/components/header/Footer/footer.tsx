@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const FooterContainer = styled.div`
-height: auto;
+height: 95vh;
 width: 100%;
 background: black;
 justify-content: center;
