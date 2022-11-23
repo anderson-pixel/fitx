@@ -21,10 +21,10 @@ $light-color:#ccc;
 $bg-color:#1d0e15;
 $border:.1rem solid rgba(255,255,255,.2);
 $main: rgb(0, 145, 255);
-$white : #fff;
+$white: #fff;
 $light-white : #aaa;
-$light-bg : #aaa;
-$light-black : #111;
+
+
 
 @mixin grid($val) {
    display: grid;
@@ -181,7 +181,7 @@ code {
             line-height: 4.5rem;
             font-size: 1.7rem;
             color:$white;
-            background: $light-bg;
+            background: $light-white;
             border-radius: 50%;
             margin-right: .5rem;
             text-align:center;
@@ -197,7 +197,7 @@ code {
           .email{
             margin-bottom: 1rem;
             width: 100%;
-            background: $light-bg;
+            background: $light-white;
             padding:1.2rem;
             font-size: 1.5rem;
             color:$white;
