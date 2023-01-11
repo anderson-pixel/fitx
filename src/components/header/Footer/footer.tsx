@@ -18,13 +18,6 @@ function Footer() {
      <FooterContainer className="footercont">
 
       <div className="credit">
-      <h3 style={{ fontSize: '2rem',
-        textAlign: 'center',
-        padding:'1rem',
-        color:'white',
-        lineHeight: '1.5',
-        }}
-        >Created by <span><a href='https://github.com/anderson-pixel'>Anderson Pereira </a></span>2022</h3>
       </div>
 
     <div className="box-container">
